@@ -14,4 +14,7 @@
   - gtfs source
   - gtfs sink
 - run pipeline
-- 
+- create databricks workspace
+- create databricks service principal and give rbac of blob contributor and change spark configs
+- create a notebook to unzip latest zip files from raw and send to bronze
+- create bronze_to_delta.py to make data queryable
